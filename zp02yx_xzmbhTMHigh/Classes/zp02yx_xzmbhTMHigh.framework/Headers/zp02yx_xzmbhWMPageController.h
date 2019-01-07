@@ -28,10 +28,10 @@ typedef NS_ENUM(NSInteger, zp02yx_xzmbhWMPageControllerCachePolicy) {
     zp02yx_xzmbhWMPageControllerCachePolicyHigh       = 5    // High
 };
 
-typedef NS_ENUM(NSUInteger, WMPageControllerPreloadPolicy) {
-    WMPageControllerPreloadPolicyNever     = 0, // Never pre-load controller.
-    WMPageControllerPreloadPolicyNeighbour = 1, // Pre-load the controller next to the current.
-    WMPageControllerPreloadPolicyNear      = 2  // Pre-load 2 controllers near the current.
+typedef NS_ENUM(NSUInteger, zp02yx_xzmbhWMPageControllerPreloadPolicy) {
+    zp02yx_xzmbhWMPageControllerPreloadPolicyNever     = 0, // Never pre-load controller.
+    zp02yx_xzmbhWMPageControllerPreloadPolicyNeighbour = 1, // Pre-load the controller next to the current.
+    zp02yx_xzmbhWMPageControllerPreloadPolicyNear      = 2  // Pre-load 2 controllers near the current.
 };
 
 NS_ASSUME_NONNULL_BEGIN
@@ -261,7 +261,7 @@ extern NSString *const zp02yx_xzmbhWMControllerDidFullyDisplayedNotification;
 @property (nonatomic, assign) zp02yx_xzmbhWMPageControllerCachePolicy cachePolicy;
 
 /** 预加载机制，在停止滑动的时候预加载 n 页 */
-@property (nonatomic, assign) WMPageControllerPreloadPolicy preloadPolicy;
+@property (nonatomic, assign) zp02yx_xzmbhWMPageControllerPreloadPolicy preloadPolicy;
 
 /** Whether ContentView bounces */
 @property (nonatomic, assign) BOOL bounces;
