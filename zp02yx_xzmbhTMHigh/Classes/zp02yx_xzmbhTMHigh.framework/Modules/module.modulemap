@@ -1,0 +1,6 @@
+framework module zp02yx_xzmbhTMHigh {
+  umbrella header "zp02yx_xzmbhTMHigh.h"
+
+  export *
+  module * { export * }
+}
