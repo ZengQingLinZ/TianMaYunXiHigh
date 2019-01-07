@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TianMaYunXiHigh"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "天马云息"
 
   # This description is used to generate tags and improve search results.
@@ -95,7 +95,7 @@ Pod::Spec.new do |spec|
   #spec.exclude_files = "Classes/Exclude"
 
     spec.source_files = 'zp02yx_xzmbhTMHigh/Classes/zp02yx_xzmbhTMHigh.framework/Headers/*.{h}'
-    spec.resource  = 'zp02yx_xzmbhTMHigh/Classes/zp02yx_xzmbhHigh.bundle'
+    spec.resource  = 'zp02yx_xzmbhTMHigh/Classes/zp02yx_xzmbh.bundle'
     spec.vendored_frameworks = 'zp02yx_xzmbhTMHigh/Classes/zp02yx_xzmbhTMHigh.framework'
 
   # spec.public_header_files = "Classes/**/*.h"
