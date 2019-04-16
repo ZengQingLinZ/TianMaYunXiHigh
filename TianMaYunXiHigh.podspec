@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TianMaYunXiHigh"
-  spec.version      = "0.0.34"
+  spec.version      = "0.0.35"
   spec.summary      = "天马云息"
 
   # This description is used to generate tags and improve search results.
@@ -149,6 +149,8 @@ Pod::Spec.new do |spec|
     spec.dependency "MJExtension"
     spec.dependency "MBProgressHUD"
     spec.dependency "Masonry"
+    spec.dependency "TZImagePickerController"
+
 
     spec.dependency "TMUserCenter"
     spec.dependency "TMPaySDK"
